@@ -1,32 +1,24 @@
 package com.playground.gugudan;
 
+import java.util.*;
 public class Gugudan {
 
 	public static void main(String[] args) {
-		//2단
-		System.out.println("2단");
-		System.out.println(2*1);
-		System.out.println(2*2);
-		System.out.println(2*3);
-		System.out.println(2*4);
-		System.out.println(2*5);
-		System.out.println(2*6);
-		System.out.println(2*7);
-		System.out.println(2*8);
-		System.out.println(2*9);
+		
 		//라인복사 ctrl + alt + 위아래 화살표
 		//라인이동 alt+ 위아래 화살표
+//		주석처리 ctrl + /
+		Scanner sc = new Scanner(System.in);
+		int number;
+		System.out.print("구구단 중 출력할 단은? :");
+		number = sc.nextInt();
+		sc.close();
+		System.out.println(number+"단 출력");
+		for(int i= 1; i<10;i++) {
+			System.out.println(number+" * "+ i +" = "+num*i);
+		}
 		
-		//3단
-		System.out.println(3*1);
-		System.out.println(3*2);
-		System.out.println(3*3);
-		System.out.println(3*4);
-		System.out.println(3*5);
-		System.out.println(3*6);
-		System.out.println(3*7);
-		System.out.println(3*8);
-		System.out.println(3*9);
+		
 	}
 
 }
