@@ -1,4 +1,4 @@
-package playground_example;
+package com.playground.gugudan;
 
 public class HelloWorld {
 
